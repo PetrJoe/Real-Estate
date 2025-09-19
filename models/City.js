@@ -19,7 +19,7 @@ const City = sequelize.define(
   {
     createdAt: false,
     updatedAt: false,
-  },
+  }
 );
 
 module.exports = City;

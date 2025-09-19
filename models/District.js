@@ -20,7 +20,7 @@ const District = sequelize.define(
   {
     createdAt: false,
     updatedAt: false,
-  },
+  }
 );
 
 District.belongsTo(City, {
