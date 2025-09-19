@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Real Estate | 404</title>
+    <%- include("./layouts/imports.ejs") %>
+</head>
+<body>
+    <%- include("./layouts/navbar.ejs") %>
+    <% if(search){ %>
+      <div class="container-md py-5 bg-white shadow-sm">
+        <div class="text-center py-5 my-3">
+            <i class="fa-solid fa-face-sad-tear text-danger big-icon mb-5"></i>
+            <h1 class="my-2">What is <%= q %>?</h1>
+            <p class="fs-4 text-muted">Sorry, what you were looking for was not found.</p>
+            <a href="/">
+              <button class="btn btn-danger mt-5 px-5">Go Home</button>
+            </a>
+          </div>
+        </div>
+      <% }else{ %>
+        <div class="container-md py-5 bg-white shadow-sm">
+        <div class="text-center py-5 my-3">
+            <i class="fa-solid fa-face-sad-tear text-danger big-icon mb-5"></i>
+            <h1 class="my-2">404</h1>
+            <p class="fs-4 text-muted">Sorry, page not found.</p>
+            <a href="/">
+              <button class="btn btn-danger mt-5 px-5">Go Home</button>
+            </a>
+          </div>
+        </div>
+    <% } %>
+    <%- include("./layouts/footer.ejs") %>
+</body>
+</html>

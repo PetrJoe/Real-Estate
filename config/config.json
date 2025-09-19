@@ -1,0 +1,41 @@
+{
+  "development": {
+    "username": "realestate_mnhq_user",
+    "password": "snk820GPXhQT3ogDYORzXdEm2oFYvN2t",
+    "database": "realestate_mnhq",
+    "host": "dpg-d36je2ripnbc7398g2sg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": false,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "realestate_mnhq_user",
+    "password": "snk820GPXhQT3ogDYORzXdEm2oFYvN2t",
+    "database": "realestate_mnhq",
+    "host": "dpg-d36je2ripnbc7398g2sg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": false,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "realestate_mnhq_user",
+    "password": "snk820GPXhQT3ogDYORzXdEm2oFYvN2t",
+    "database": "realestate_mnhq",
+    "host": "dpg-d36je2ripnbc7398g2sg-a.singapore-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": false,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
